@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <!-- 設定文件的內容類型和字符編碼 -->
-    <title>tic-tac-toe</title> <!-- 設定網頁標題 -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>tic-tac-toe</title>
     <style>
         * {
-            font-family: Arial; /* 設定全 HTML 字體為 Arial */
+            font-family: Arial; 
         }
         header, footer {
-            background-color: #666666; /* 設定 header 和 footer 的背景顏色 */
-            color: #FFFFFF; /* 設定 header 和 footer 的文字顏色 */
-            text-align: center; /* 文字居中對齊 */
-            padding: 10px; /* 內邊距設定 */
+            background-color: #666666; 
+            color: #FFFFFF; 
+            text-align: center; 
+            padding: 10px; 
         }
         main {
-            padding: 10px 0; /* 上下留白 */
+            padding: 10px 0; 
         }
         .grid-container {
-            display: grid; /* 設定為網格布局 */
-            grid-template-columns: repeat(3, 1fr); /* 創建三列等寬布局，容器寬度變化時自動調整 */
-            grid-gap: 10px; /* 卡片之間的間隙 */
-            width: 240px; /* 網格的總寬度 */
-            margin: auto; /* 將網格置於頁面中央 */
+            display: grid; 
+            grid-template-columns: repeat(3, 1fr); 
+            grid-gap: 10px; 
+            width: 240px; 
+            margin: auto; 
         }
         .grid-item {
-            display: grid; /* 設定為網格布局 */
-            width: 80px; /* 每個網格項目的固定寬度 */
-            height: 80px; /* 每個網格項目的固定高度 */
-            justify-content: center; /* 水平居中對齊 */
-            align-items: center; /* 垂直居中對齊 */
-            background-color: #F0F0F0; /* 灰色背景 */
-            cursor: pointer; /* 指示元素可點擊 */
+            display: grid; 
+            width: 80px; 
+            height: 80px; 
+            justify-content: center; 
+            align-items: center; 
+            background-color: #F0F0F0; 
+            cursor: pointer; 
         }
         }
     </style>
 </head>
 <body>
 <header>
-    <h1>tic tac toe</h1> <!-- 頁面標題 -->
+    <h1>tic tac toe</h1>
 </header>
 <main>
     <div class="grid-container">
@@ -53,7 +53,7 @@
     </div>
 </main>
 <footer>
-    <b>單元五練習三 (2024.01.26)</b> <!-- 頁腳信息 -->
+    <b>單元五練習三 (2024.01.26)</b> 
 </footer>
 <script>
 var clickCount=0;
